@@ -1,0 +1,1 @@
+appium -p 2500 --full-reset

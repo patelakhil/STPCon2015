@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="run tests" parallel="tests" verbose="1" configfailurepolicy="continue" thread-count="2">
+    <test name="Android Test">
+        <classes>
+            <class name="com.stpcon.workshop.accelerated.mobile.qa.android.testrunner" />
+        </classes>
+    </test>
+    <test name="iOS Test">
+        <classes>
+            <class name="com.stpcon.workshop.accelerated.mobile.qa.ios.testrunner" />
+        </classes>
+    </test>
+</suite>
